@@ -771,6 +771,23 @@ Project Process
   margin-bottom: 10px;
 }
 
+.collapsible {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+
+.collapsible::after {
+  content: '\25B6'; /* Unicode for right-pointing triangle/arrow */
+  margin-left: 5px;
+}
+
+.collapsible.active::after {
+  content: '\25BC'; /* Unicode for downward-pointing triangle/arrow */
+}
+
 /*
 ---------------------------------------------
 July 18
@@ -903,7 +920,7 @@ July 19
   font-style: italic;
   font-size: 12px;;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 #jul19 .leather {
@@ -921,6 +938,91 @@ July 19
 }
 
 #jul19 .third-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+/*
+---------------------------------------------
+July 20
+---------------------------------------------
+*/
+
+#jul20 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#jul20 .left-content {
+  margin-right: 30px;
+}
+
+#jul20 .left-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+#jul20 .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul20 .left-content ol {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul20 .left-content li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#jul20 .left-content .main-border-button a {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+  margin-top: 35px;
+}
+
+#jul20 .left-content .main-border-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+#jul20 img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#jul20 .right-content p{
+  font-style: italic;
+  font-size: 12px;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#jul20 .leather {
+  margin-bottom: 30px;
+}
+
+#jul20 .first-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#jul20 .second-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#jul20 .third-image {
   margin-bottom: 5px;
   margin-left: 20px;
 }
