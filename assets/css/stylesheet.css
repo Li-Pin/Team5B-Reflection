@@ -1029,6 +1029,251 @@ July 20
 
 /*
 ---------------------------------------------
+July 21
+---------------------------------------------
+*/
+
+#jul21 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#jul21 .left-content {
+  margin-right: 30px;
+}
+
+#jul21 .left-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+#jul21 .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul21 .left-content ol {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul21 .left-content li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#jul21 .left-content .main-border-button a {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+  margin-top: 35px;
+}
+
+#jul21 .left-content .main-border-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+#jul21 img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#jul21 .right-content p{
+  font-style: italic;
+  font-size: 12px;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#jul21 .leather {
+  margin-bottom: 30px;
+}
+
+#jul21 .first-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#jul21 .second-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#jul21 .third-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+/*
+---------------------------------------------
+July 24
+---------------------------------------------
+*/
+
+#jul24 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#jul24 .left-content {
+  margin-right: 30px;
+}
+
+#jul24 .left-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+#jul24 .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul24 .left-content ol {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul24 .left-content li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#jul24 .left-content .main-border-button a {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+  margin-top: 35px;
+}
+
+#jul24 .left-content .main-border-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+#jul24 img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#jul24 .right-content p{
+  font-style: italic;
+  font-size: 12px;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#jul24 .leather {
+  margin-bottom: 30px;
+}
+
+#jul24 .first-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#jul24 .second-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+/*
+---------------------------------------------
+July 25
+---------------------------------------------
+*/
+
+#jul25 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#jul25 .left-content {
+  margin-right: 30px;
+}
+
+#jul25 .left-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+#jul25 .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul25 .left-content ol {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul25 .left-content li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#jul25 .left-content .main-border-button a {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+  margin-top: 35px;
+}
+
+#jul25 .left-content .main-border-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+#jul25 img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#jul25 .right-content p{
+  font-style: italic;
+  font-size: 12px;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#jul25 .leather {
+  margin-bottom: 30px;
+}
+
+#jul25 .first-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#jul25 .second-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+/*
+---------------------------------------------
 Reflection
 ---------------------------------------------
 */
