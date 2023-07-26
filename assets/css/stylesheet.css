@@ -1274,6 +1274,81 @@ July 25
 
 /*
 ---------------------------------------------
+July 26
+---------------------------------------------
+*/
+
+#jul26 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#jul26 .left-content {
+  margin-right: 30px;
+}
+
+#jul26 .left-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+#jul26 .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul26 .left-content ol {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul26 .left-content li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#jul26 .left-content .main-border-button a {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+  margin-top: 35px;
+}
+
+#jul26 .left-content .main-border-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+#jul26 img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#jul26 .right-content p{
+  font-style: italic;
+  font-size: 12px;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#jul26 .leather {
+  margin-bottom: 30px;
+}
+
+#jul26 .first-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+/*
+---------------------------------------------
 Reflection
 ---------------------------------------------
 */
