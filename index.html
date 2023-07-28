@@ -52,8 +52,13 @@
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="projectProcess.html">Project Process</a></li>
-                            <li class="scroll-to-section"><a href="reflection.html">Reflection</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropbtn">Reflection</a>
+                                <div class="dropdown-content">
+                                    <a href="projectProcess.html">Project Process</a>
+                                    <a href="gallery.html">Gallery</a>
+                                </div>
+                            </li>
                             <li class="scroll-to-section"><a href="achievements.html">Achievements</a></li>
                         </ul>
                         <a class='menu-trigger'>
@@ -121,7 +126,7 @@
                                     <img src="assets/images/annexeComm.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-10">
+                            <div class="col-lg-11">
                                 <div class="second-image">
                                     <img src="assets/images/groupPhoto.jpeg" alt="">
                                 </div>
@@ -155,6 +160,110 @@
         </div>
     </section>
     <!-- ***** Problem Ends ***** -->
+
+    <!-- ***** Solution Starts ***** -->
+    <section class="section" id="solution">
+        <div class="container">
+            <div class="row">
+                <div class="left-content">
+                    <h2>Solution</h2>
+                    <p align="justify">Introducing our solution: <i><b>The Annexe Communities Archive</b></i>, a carefully crafted solution 
+                        tailored to serve as an accessible and user-friendly webpage that encompasses both past and current activities of 
+                        The Annexe. The main goal is to offer visitors a glimpse into The Annexe's rich history, events and achievements 
+                        while focusing on user-friendliness to ensure that every visitor, regardless of their digital proficiency, can 
+                        effortlessly explore the webpage's offerings. The webpage also allows visitors to easily view and sign up for 
+                        classes and find contact information when they need assistance. Through this platform, our team also seeks to bridge 
+                        the generations through technology that resonates with today's tech-savvy audience, fostering connections 
+                        between the young and old as they engage, share experiences, and celebrate a shared identity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutionPhotoGallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="men-item-carousel">
+                        <div class="owl-solution-item owl-carousel">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/images/taca_homepage.png" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Homepage</h4>
+                                    <p>A welcoming landing page with a eye-catching image carousel that showcases information about The
+                                        Annexe that is available on the website.
+                                    </p>                       
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/images/taca_aboutUs.png" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>About Us Page</h4>
+                                    <p>Introduces the visitors on the background of The Annexe, their mission and vision, and their 
+                                        passionate team of skilled staffs.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/images/taca_history.png" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>History Page</h4>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/images/taca_art.png" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Art Page</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/images/taca_forum.png" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Forum Page</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/images/taca_contactUs.png" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Contact Us Page</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/images/taca_events.png" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Activities - Events Page</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/images/taca_classes.png" alt="">
+                                </div>
+                                <div class="down-content">
+                                    <h4>Activities - Classes Page</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Solution Ends ***** -->
 
     <!-- ***** Footer Start ***** -->
     <footer>
@@ -208,6 +317,20 @@
         });
 
     </script>
+
+    <script>
+        // Initialize the Owl Carousel
+        $(document).ready(function() {
+        $('.owl-solution-item').owlCarousel({
+            items: 1, // Set the number of items to display per slide (1 in this case)
+            loop: true, // Set loop to true if you want the carousel to loop continuously
+            nav: true, // Set nav to true if you want navigation arrows
+            dots: false, // Set dots to false if you don't want navigation dots
+            // Add any other options you want to customize the carousel
+        });
+        });
+    </script>
+
 
 </body>
 
