@@ -801,6 +801,15 @@ Solution
   margin-left: 11px;
 }
 
+#solution2 .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+  margin-left: 11px;
+}
+
 /*
 ---------------------------------------------
 Solution Photo Gallery
@@ -824,9 +833,14 @@ Solution Photo Gallery
 
 #solutionPhotoGallery .item .down-content h4 {
   font-size: 22px;
-  color: #2a2a2a;
+  color: #7a7a7a;
   font-weight: 700;
   margin-bottom: 8px;
+}
+
+#solutionPhotoGallery .item .down-content p {
+  color: #9d9d9d;
+  font-style: italic;
 }
 
 #solutionPhotoGallery .item .down-content span {
@@ -968,6 +982,53 @@ Project Process
 
 /*
 ---------------------------------------------
+Main Reflection
+---------------------------------------------
+*/
+
+.fit-image {
+  max-width: 1100px; 
+  height: auto;
+}
+
+#mainReflection {
+  padding-top: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#mainReflection .section-heading {
+  margin-bottom: 60px;
+}
+
+#mainReflection .section-heading h2{
+  margin-bottom: 10px;
+}
+
+#mainReflection .section-heading h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+.collapsible {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+
+.collapsible::after {
+  content: '\25B6'; /* Unicode for right-pointing triangle/arrow */
+  margin-left: 5px;
+}
+
+.collapsible.active::after {
+  content: '\25BC'; /* Unicode for downward-pointing triangle/arrow */
+}
+
+/*
+---------------------------------------------
 July 18
 ---------------------------------------------
 */
@@ -983,9 +1044,9 @@ July 18
   margin-right: 30px;
 }
 
-#jul18 .left-content h2 {
-  font-size: 34px;
-  font-weight: 700;
+#jul18 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
   color: #2a2a2a;
 }
 
@@ -1051,9 +1112,9 @@ July 19
   margin-right: 30px;
 }
 
-#jul19 .left-content h2 {
-  font-size: 34px;
-  font-weight: 700;
+#jul19 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
   color: #2a2a2a;
 }
 
@@ -1136,9 +1197,9 @@ July 20
   margin-right: 30px;
 }
 
-#jul20 .left-content h2 {
-  font-size: 34px;
-  font-weight: 700;
+#jul20 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
   color: #2a2a2a;
 }
 
@@ -1221,9 +1282,9 @@ July 21
   margin-right: 30px;
 }
 
-#jul21 .left-content h2 {
-  font-size: 34px;
-  font-weight: 700;
+#jul21 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
   color: #2a2a2a;
 }
 
@@ -1306,9 +1367,9 @@ July 24
   margin-right: 30px;
 }
 
-#jul24 .left-content h2 {
-  font-size: 34px;
-  font-weight: 700;
+#jul24 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
   color: #2a2a2a;
 }
 
@@ -1386,9 +1447,9 @@ July 25
   margin-right: 30px;
 }
 
-#jul25 .left-content h2 {
-  font-size: 34px;
-  font-weight: 700;
+#jul25 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
   color: #2a2a2a;
 }
 
@@ -1466,9 +1527,9 @@ July 26
   margin-right: 30px;
 }
 
-#jul26 .left-content h2 {
-  font-size: 34px;
-  font-weight: 700;
+#jul26 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
   color: #2a2a2a;
 }
 
@@ -1541,9 +1602,9 @@ July 27
   margin-right: 30px;
 }
 
-#jul27 .left-content h2 {
-  font-size: 34px;
-  font-weight: 700;
+#jul27 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
   color: #2a2a2a;
 }
 
@@ -1600,6 +1661,326 @@ July 27
   margin-left: 20px;
 }
 
+#jul27 .second-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+/*
+---------------------------------------------
+July 28
+---------------------------------------------
+*/
+
+#jul28 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#jul28 .left-content {
+  margin-right: 30px;
+}
+
+#jul28 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+#jul28 .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul28 .left-content ol {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul28 .left-content li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#jul28 .left-content .main-border-button a {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+  margin-top: 35px;
+}
+
+#jul28 .left-content .main-border-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+#jul28 img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#jul28 .right-content p{
+  font-style: italic;
+  font-size: 12px;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#jul28 .leather {
+  margin-bottom: 30px;
+}
+
+#jul28 .first-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#jul28 .second-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#jul28 .third-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+/*
+---------------------------------------------
+July 31
+---------------------------------------------
+*/
+
+#jul31 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#jul31 .left-content {
+  margin-right: 30px;
+}
+
+#jul31 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+#jul31 .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul31 .left-content ol {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#jul31 .left-content li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#jul31 .left-content .main-border-button a {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+  margin-top: 35px;
+}
+
+#jul31 .left-content .main-border-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+#jul31 img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#jul31 .right-content p{
+  font-style: italic;
+  font-size: 12px;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#jul31 .leather {
+  margin-bottom: 30px;
+}
+
+#jul31 .first-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#jul31 .second-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+/*
+---------------------------------------------
+August 1
+---------------------------------------------
+*/
+
+#aug1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#aug1 .left-content {
+  margin-right: 30px;
+}
+
+#aug1 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+#aug1 .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#aug1 .left-content ol {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#aug1 .left-content li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#aug1 .left-content .main-border-button a {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+  margin-top: 35px;
+}
+
+#aug1 .left-content .main-border-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+#aug1 img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#aug1 .right-content p{
+  font-style: italic;
+  font-size: 12px;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#aug1 .leather {
+  margin-bottom: 30px;
+}
+
+#aug1 .first-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+/*
+---------------------------------------------
+August 2
+---------------------------------------------
+*/
+
+#aug2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#aug2 .left-content {
+  margin-right: 30px;
+}
+
+#aug2 .left-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+#aug2 .left-content p {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#aug2 .left-content ol {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 500;
+  display: block;
+  margin-top: 25px;
+}
+
+#aug2 .left-content li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#aug2 .left-content .main-border-button a {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+  margin-top: 35px;
+}
+
+#aug2 .left-content .main-border-button a:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+#aug2 img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#aug2 .right-content p{
+  font-style: italic;
+  font-size: 12px;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#aug2 .leather {
+  margin-bottom: 30px;
+}
+
+#aug2 .first-image {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
 /*
 ---------------------------------------------
 Reflection
@@ -1636,6 +2017,36 @@ Achievements
 
 #achievements .section-heading h2{
   margin-bottom: 10px;
+}
+
+#pbAchievements {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#pbAchievements h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+.pbFit{
+  max-width: 1270px; 
+  height: auto;
+  margin-top: 15px;
+}
+
+#teamAchievements {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px dotted #eee;
+}
+
+#teamAchievements h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2a2a2a;
 }
 
 /* 
